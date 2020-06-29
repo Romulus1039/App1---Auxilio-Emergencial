@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".tela2">
+
+    <Button
+        android:id="@+id/voltar.bnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundGravity="top|bottom|center"
+        android:minWidth="150"
+        android:minHeight="80"
+        android:text="VOLTAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_column="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="3"
+        tools:layout_editor_absoluteY="578dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ok.bnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundGravity="top|bottom|center"
+        android:minWidth="150"
+        android:minHeight="80"
+        android:text="@android:string/ok"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_column="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="3"
+        tools:layout_editor_absoluteY="481dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/dataPagamento.txt"
+        android:layout_width="402dp"
+        android:layout_height="156dp"
+        android:text="  DATA DE PAGAMENTO:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#272525"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="149dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/saldoReceber.txt"
+        android:layout_width="404dp"
+        android:layout_height="158dp"
+        android:text="  SALDO A RECEBER:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#272525"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="392dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_app1"
+        tools:layout_editor_absoluteY="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="675dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
